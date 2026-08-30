@@ -24,6 +24,8 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--teal); text-decoration: none; }
 a:hover { color: var(--navy); }
+a.btn,
+a.btn:hover { text-decoration: none; }
 
 .skip {
   position: absolute;
@@ -87,10 +89,27 @@ a:hover { color: var(--navy); }
 .btn-sm { padding: 0.55rem 1rem; font-size: 0.88rem; }
 .btn-ghost {
   background: transparent;
-  border: 1px solid #c9d6e4;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  color: #fff;
+}
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-color: #fff;
+  transform: none;
+}
+
+/* Ghost buttons outside the dark hero (e.g. if reused later) */
+.section .btn-ghost,
+.site-header .btn-ghost {
+  border-color: #c9d6e4;
   color: var(--navy);
 }
-.btn-ghost:hover { background: var(--fog); color: var(--navy); transform: none; }
+.section .btn-ghost:hover,
+.site-header .btn-ghost:hover {
+  background: var(--fog);
+  color: var(--navy);
+}
 
 .hero {
   position: relative;
