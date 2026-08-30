@@ -5,6 +5,7 @@ const dict = {
     "nav.travel": "Viajero",
     "nav.contact": "Contacto",
     "nav.cta": "Solicitar asistencia",
+    "nav.ctaShort": "Contacto",
     "hero.eyebrow": "Third Party Administrator · República Dominicana",
     "hero.title": "Asistencia médica y de viaje, coordinada cuando más importa",
     "hero.lede":
@@ -45,6 +46,7 @@ const dict = {
     "nav.travel": "Travelers",
     "nav.contact": "Contact",
     "nav.cta": "Request assistance",
+    "nav.ctaShort": "Contact",
     "hero.eyebrow": "Third Party Administrator · Dominican Republic",
     "hero.title": "Medical and travel assistance, coordinated when it matters most",
     "hero.lede":
