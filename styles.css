@@ -51,6 +51,7 @@ a.btn:hover { text-decoration: none; }
   min-height: 4.25rem;
 }
 .brand img { width: 168px; height: auto; }
+.header-cta .cta-short { display: none; }
 .nav { display: flex; gap: 1.25rem; }
 .nav a { color: var(--navy); font-weight: 500; font-size: 0.95rem; }
 .header-actions { display: flex; align-items: center; gap: 0.75rem; }
