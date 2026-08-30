@@ -266,4 +266,35 @@ a.btn.btn-ghost:focus-visible,
   .nav { display: none; }
   .feature-list, .split, .pillars, .contact-inner { grid-template-columns: 1fr; }
   .hero { min-height: auto; padding-top: 4rem; }
+
+  .wrap { width: min(1080px, calc(100% - 1.5rem)); }
+  .header-inner {
+    gap: 0.65rem;
+    min-height: 3.75rem;
+  }
+  .brand {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+  .brand img {
+    width: min(132px, 38vw);
+  }
+  .header-actions {
+    flex: 0 0 auto;
+    gap: 0.45rem;
+  }
+  .header-cta {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  .header-cta .cta-full { display: none; }
+  .header-cta .cta-short { display: inline; }
+  .lang button {
+    padding: 0.3rem 0.55rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-cta { display: none; }
 }
