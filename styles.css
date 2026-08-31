@@ -252,21 +252,33 @@ a.btn.btn-ghost:focus-visible,
 .contact-card .note { color: #9eb4cb; font-size: 0.9rem; }
 
 .contact-form {
-  display: grid;
-  gap: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  width: 100%;
+  min-width: 0;
   background: var(--fog);
   padding: 1.5rem;
   border: 1px solid #d7e2ec;
 }
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  min-width: 0;
+}
+.contact-form .field > span,
 .contact-form label {
-  display: grid;
-  gap: 0.35rem;
+  display: block;
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--navy);
 }
 .contact-form input,
 .contact-form textarea {
+  display: block;
+  box-sizing: border-box;
   font: inherit;
   font-weight: 400;
   padding: 0.7rem 0.8rem;
@@ -274,9 +286,17 @@ a.btn.btn-ghost:focus-visible,
   background: #fff;
   color: var(--ink);
   width: 100%;
+  max-width: 100%;
 }
-.contact-form textarea { resize: vertical; min-height: 6rem; }
-.contact-form .btn { width: 100%; margin-top: 0.25rem; }
+.contact-form textarea {
+  resize: vertical;
+  min-height: 7rem;
+}
+.contact-form .btn {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 0.15rem;
+}
 .form-hint {
   margin: 0;
   font-size: 0.85rem;
@@ -285,7 +305,7 @@ a.btn.btn-ghost:focus-visible,
 }
 .form-sent {
   display: none;
-  margin: 0 0 0.75rem;
+  margin: 0;
   padding: 0.75rem 0.9rem;
   background: #e8f6d8;
   color: var(--navy);
