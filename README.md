@@ -1,6 +1,6 @@
 # Goval TPA — Landing
 
-Bilingual (ES/EN) marketing site for Goval TPA (Dominican medical & travel assistance TPA).
+Bilingual (ES/EN) marketing site for Goval TPA (Panama medical & travel assistance TPA).
 
 ## Local preview
 

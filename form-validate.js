@@ -19,13 +19,13 @@
     if (!raw) return false;
     if (!/^[+\d(][\d\s().\-/]*$/.test(raw)) return false;
     const digits = raw.replace(/\D/g, "");
-    if (digits.length < 10 || digits.length > 15) return false;
-    // RD / US-Canada NANP: 10 digits, or 11 starting with 1
-    if (digits.length === 11 && digits[0] !== "1") return false;
-    if (digits.length === 10 || digits.length === 11) {
-      const local = digits.length === 11 ? digits.slice(1) : digits;
-      // area code cannot start with 0 or 1
-      if (local[0] === "0" || local[0] === "1") return false;
+    // Panama (+507 ~7–8 local) and international E.164; also NANP.
+    if (digits.length < 7 || digits.length > 15) return false;
+    if (digits.length === 10) {
+      if (digits[0] === "0" || digits[0] === "1") return false;
+    }
+    if (digits.length === 11 && digits[0] === "1") {
+      if (digits[1] === "0" || digits[1] === "1") return false;
     }
     return true;
   }

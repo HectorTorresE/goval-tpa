@@ -2,20 +2,20 @@ const SITE = "https://hectortorrese.github.io/goval-tpa/";
 
 const meta = {
   es: {
-    title: "Goval TPA | TPA asistencia médica y al viajero en República Dominicana",
+    title: "Goval TPA | TPA asistencia médica y al viajero en Panamá",
     description:
-      "Goval TPA es un Third Party Administrator en República Dominicana: asistencia médica, emergencias, siniestros y asistencia al viajero 24/7 para aseguradoras y asegurados.",
+      "Goval TPA es un Third Party Administrator en Panamá: asistencia médica, emergencias, siniestros y asistencia al viajero 24/7 para aseguradoras y asegurados.",
     ogTitle: "Goval TPA | TPA asistencia médica y al viajero",
     ogDescription:
-      "Third Party Administrator en RD: asistencia médica, emergencias, siniestros y viajero 24/7.",
+      "Third Party Administrator en Panamá: asistencia médica, emergencias, siniestros y viajero 24/7.",
   },
   en: {
-    title: "Goval TPA | Medical & travel assistance TPA in the Dominican Republic",
+    title: "Goval TPA | Medical & travel assistance TPA in Panama",
     description:
-      "Goval TPA is a Third Party Administrator in the Dominican Republic: medical assistance, emergencies, claims, and 24/7 traveler assistance for insurers and members.",
+      "Goval TPA is a Third Party Administrator in Panama: medical assistance, emergencies, claims, and 24/7 traveler assistance for insurers and members.",
     ogTitle: "Goval TPA | Medical & travel assistance TPA",
     ogDescription:
-      "Dominican Republic TPA: medical assistance, emergencies, claims, and traveler support 24/7.",
+      "Panama TPA: medical assistance, emergencies, claims, and traveler support 24/7.",
   },
 };
 
@@ -29,7 +29,7 @@ const dict = {
     "nav.ctaShort": "Contacto",
     "nav.menu": "Abrir menú",
     "nav.close": "Cerrar menú",
-    "hero.eyebrow": "Third Party Administrator · República Dominicana",
+    "hero.eyebrow": "Third Party Administrator · Panamá",
     "hero.title": "Asistencia médica y de viaje, coordinada cuando más importa",
     "hero.lede":
       "Goval TPA gestiona y coordina servicios de asistencia médica, emergencias y siniestros para aseguradoras y sus asegurados — en el país y en el extranjero, las 24 horas.",
@@ -44,20 +44,20 @@ const dict = {
     "services.s2.t": "Emergencias y siniestros",
     "services.s2.p": "Gestión ágil de emergencias médicas y reclamos para aseguradoras y asegurados.",
     "services.s3.t": "Cobertura nacional e internacional",
-    "services.s3.p": "Operación en República Dominicana y apoyo en el exterior con red aliada.",
+    "services.s3.p": "Operación en Panamá y apoyo en el exterior con red aliada.",
     "network.title": "Red de prestadores médicos y no médicos",
     "network.p":
       "Trabajamos con una red de prestadores médicos y no médicos para entregar asistencia completa — clínica, logística y acompañamiento.",
     "network.l1": "Prestadores médicos",
     "network.l2": "Servicios no médicos de apoyo",
-    "network.l3": "Aliados para aseguradoras (p. ej. Humano Seguros)",
+    "network.l3": "Aliados para aseguradoras en Panamá",
     "travel.title": "Asistencia al viajero 24/7",
     "travel.lede":
       "Emergencias médicas, jurídicas y personales mientras viaja — con coordinación continua.",
     "travel.p1": "Médica",
     "travel.p2": "Jurídica",
     "travel.p3": "Personal",
-    "contact.title": "Contacto TPA — República Dominicana",
+    "contact.title": "Contacto TPA — Panamá",
     "contact.p": "¿Aseguradora, socio o viajero? Escríbanos o llámenos — le respondemos a la brevedad.",
     "contact.emailLabel": "Correo",
     "contact.phoneLabel": "Teléfono",
@@ -70,16 +70,16 @@ const dict = {
     "form.submit": "Enviar mensaje",
     "form.hint": "El mensaje llega al correo de Goval.",
     "form.sent": "Mensaje enviado. Gracias — le responderemos pronto.",
-    "form.phonePlaceholder": "+1 809-000-0000",
+    "form.phonePlaceholder": "+507 6000-0000",
     "form.err.emailRequired": "Ingrese su correo electrónico.",
     "form.err.emailInvalid": "Ingrese un correo válido (ej. nombre@empresa.com).",
     "form.err.phoneRequired": "Ingrese su número de teléfono.",
-    "form.err.phoneInvalid": "Ingrese un teléfono válido (mín. 10 dígitos; ej. +1 809-555-1234).",
+    "form.err.phoneInvalid": "Ingrese un teléfono válido (mín. 7 dígitos; ej. +507 6000-0000).",
     "form.err.nameRequired": "Ingrese su nombre (mín. 2 caracteres).",
     "form.err.messageRequired": "Escriba un mensaje (mín. 10 caracteres).",
     "theme.toDark": "Activar modo oscuro",
     "theme.toLight": "Activar modo claro",
-    "footer": "© Goval TPA · República Dominicana",
+    "footer": "© Goval TPA · Panamá",
   },
   en: {
     "nav.services": "Services",
@@ -90,7 +90,7 @@ const dict = {
     "nav.ctaShort": "Contact",
     "nav.menu": "Open menu",
     "nav.close": "Close menu",
-    "hero.eyebrow": "Third Party Administrator · Dominican Republic",
+    "hero.eyebrow": "Third Party Administrator · Panama",
     "hero.title": "Medical and travel assistance, coordinated when it matters most",
     "hero.lede":
       "Goval TPA manages and coordinates medical assistance, emergencies, and claims for insurers and their members — in-country and abroad, 24 hours a day.",
@@ -105,20 +105,20 @@ const dict = {
     "services.s2.t": "Emergencies and claims",
     "services.s2.p": "Fast handling of medical emergencies and claims for insurers and members.",
     "services.s3.t": "National and international coverage",
-    "services.s3.p": "Operations in the Dominican Republic and support abroad through partner networks.",
+    "services.s3.p": "Operations in Panama and support abroad through partner networks.",
     "network.title": "Medical and non-medical provider network",
     "network.p":
       "We work with medical and non-medical providers to deliver complete assistance — clinical, logistical, and personal support.",
     "network.l1": "Medical providers",
     "network.l2": "Non-medical support services",
-    "network.l3": "Partners for insurers (e.g. Humano Seguros)",
+    "network.l3": "Partners for insurers in Panama",
     "travel.title": "Traveler assistance 24/7",
     "travel.lede":
       "Medical, legal, and personal emergencies while you travel — with continuous coordination.",
     "travel.p1": "Medical",
     "travel.p2": "Legal",
     "travel.p3": "Personal",
-    "contact.title": "Contact TPA — Dominican Republic",
+    "contact.title": "Contact TPA — Panama",
     "contact.p": "Insurer, partner, or traveler? Write or call — we’ll respond promptly.",
     "contact.emailLabel": "Email",
     "contact.phoneLabel": "Phone",
@@ -131,16 +131,16 @@ const dict = {
     "form.submit": "Send message",
     "form.hint": "Messages go to Goval’s inbox.",
     "form.sent": "Message sent. Thank you — we’ll reply soon.",
-    "form.phonePlaceholder": "+1 809-000-0000",
+    "form.phonePlaceholder": "+507 6000-0000",
     "form.err.emailRequired": "Please enter your email address.",
     "form.err.emailInvalid": "Enter a valid email (e.g. name@company.com).",
     "form.err.phoneRequired": "Please enter your phone number.",
-    "form.err.phoneInvalid": "Enter a valid phone (min. 10 digits; e.g. +1 809-555-1234).",
+    "form.err.phoneInvalid": "Enter a valid phone (min. 7 digits; e.g. +507 6000-0000).",
     "form.err.nameRequired": "Please enter your name (min. 2 characters).",
     "form.err.messageRequired": "Please write a message (min. 10 characters).",
     "theme.toDark": "Switch to dark mode",
     "theme.toLight": "Switch to light mode",
-    "footer": "© Goval TPA · Dominican Republic",
+    "footer": "© Goval TPA · Panama",
   },
 };
 

@@ -18,11 +18,11 @@
 ## 1. Enfoque SEO aprobado / Approved SEO focus
 
 ### Goval TPA
-**Tema central:** TPA (Third Party Administrator) de asistencia médica y al viajero en República Dominicana.
+**Tema central:** TPA (Third Party Administrator) de asistencia médica y al viajero en Panamá.
 
 | ES | EN |
 |----|----|
-| Third Party Administrator / TPA República Dominicana | Third Party Administrator / TPA Dominican Republic |
+| Third Party Administrator / TPA Panamá | Third Party Administrator / TPA Panama |
 | asistencia médica | medical assistance |
 | asistencia al viajero 24/7 | traveler assistance 24/7 |
 | emergencias médicas y siniestros | medical emergencies and claims |
