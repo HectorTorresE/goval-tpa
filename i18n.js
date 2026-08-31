@@ -56,9 +56,18 @@ const dict = {
     "travel.p2": "Jurídica",
     "travel.p3": "Personal",
     "contact.title": "Contacto TPA — República Dominicana",
-    "contact.p": "¿Aseguradora, socio o viajero? Escríbanos y le respondemos a la brevedad.",
+    "contact.p": "¿Aseguradora, socio o viajero? Escríbanos o llámenos — le respondemos a la brevedad.",
     "contact.emailLabel": "Correo",
-    "contact.note": "Actualizaremos teléfono y dirección oficiales tras confirmación del cliente.",
+    "contact.phoneLabel": "Teléfono",
+    "contact.phonePending": "Número oficial pendiente de confirmación.",
+    "contact.note": "Cuando confirmen el teléfono, lo publicamos aquí con enlace para llamar.",
+    "form.name": "Nombre",
+    "form.email": "Correo",
+    "form.phone": "Teléfono",
+    "form.message": "Mensaje",
+    "form.submit": "Enviar mensaje",
+    "form.hint": "El mensaje llega al correo de Goval.",
+    "form.sent": "Mensaje enviado. Gracias — le responderemos pronto.",
     "footer": "© Goval TPA · República Dominicana",
   },
   en: {
@@ -97,9 +106,18 @@ const dict = {
     "travel.p2": "Legal",
     "travel.p3": "Personal",
     "contact.title": "Contact TPA — Dominican Republic",
-    "contact.p": "Insurer, partner, or traveler? Write to us and we’ll respond promptly.",
+    "contact.p": "Insurer, partner, or traveler? Write or call — we’ll respond promptly.",
     "contact.emailLabel": "Email",
-    "contact.note": "Official phone and address will be updated after client confirmation.",
+    "contact.phoneLabel": "Phone",
+    "contact.phonePending": "Official number pending confirmation.",
+    "contact.note": "Once you confirm the phone number, we’ll publish it here with a tap-to-call link.",
+    "form.name": "Name",
+    "form.email": "Email",
+    "form.phone": "Phone",
+    "form.message": "Message",
+    "form.submit": "Send message",
+    "form.hint": "Messages go to Goval’s inbox.",
+    "form.sent": "Message sent. Thank you — we’ll reply soon.",
     "footer": "© Goval TPA · Dominican Republic",
   },
 };
@@ -162,3 +180,11 @@ const initial =
       ? saved
       : "es";
 applyLang(initial, Boolean(fromQuery) || true);
+
+if (new URLSearchParams(window.location.search).get("sent") === "1") {
+  const banner = document.querySelector(".form-sent");
+  if (banner) {
+    banner.hidden = false;
+    banner.classList.add("is-visible");
+  }
+}
